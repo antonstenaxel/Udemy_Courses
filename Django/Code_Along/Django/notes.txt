@@ -1,0 +1,22 @@
+activate/deactivate env
+source activate myDjangoEnv
+
+To create new project:
+django-admin startproject first_project
+
+Run project:
+python manage.py runserver
+
+Create simple application
+python manage.py startapp first_app
+
+Make migrations
+python manage.py migrate
+
+Register migrations to application
+python manage.py makemigrations first_app
+
+
+Project_One superuser:
+antkarls
+galloway1201

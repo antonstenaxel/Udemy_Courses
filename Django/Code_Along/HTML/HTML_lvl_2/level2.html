@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML lvl 2</title>
+  </head>
+  <body>
+    <h2>Simple table</h2>
+    <table border="2">
+      <thead>
+        <th>Number</th>
+        <th>Color</th>
+        <th>Country</th>
+      </thead>
+      <tr>
+        <td>250</td>
+        <td>Red</td>
+        <td>USA</td>
+      </tr>
+      <tr>
+        <td>100</td>
+        <td>Blue</td>
+        <td>Sweden</td>
+      </tr>
+    </table>
+
+    <h2>Quiz</h2>
+
+    <table border="1">
+      <thead>
+        <th>Country Name</th>
+        <th>Country Flag</th>
+        <th>GDP (millions of USD)</th>
+      </thead>
+      <tr>
+          <td>USA</td>
+          <td> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/190px-Flag_of_the_United_States.svg.png" alt=""></td>
+          <td>18,561,930</td>
+      </tr>
+      <tr>
+          <td>India</td>
+          <td> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/150px-Flag_of_India.svg.png" alt=""></td>
+          <td>2,250,990</td>
+      </tr>
+      <tr>
+          <td>United Kingdom</td>
+          <td> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png" alt=""></td>
+          <td>2,649,890</td>
+      </tr>
+
+    </table>
+
+    <h2>Forms</h2>
+
+    <form>
+      <h3>Log In:</h3>
+      <h4>Input email and password</h4>
+      <input type="email" name="useremail" value="user@email.com">
+      <input type="password" name="userpassword" value="123456">
+      <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <form>
+      <h3>Choose color</h3>
+      <h4>Click on button!</h4>
+      <input type="color" name="" value="">
+    </form>
+    <form>
+      <h3>Enter some text</h3>
+
+      <input type="text" name="" value="">
+    </form>
+
+    <form action="https://www.google.se" method="get">
+      <p>Enter email:</p>
+      <input type="email" name="usermail" value="">
+      <input type="submit" name="" value="Submit">
+    </form>
+
+    <form>
+      <label for="userinput">Enter Input:</label>
+      <input id="userinput" type="text" name="" placeholder="Hello!" required>
+      <input type="submit" name="" value="submit">
+    </form>
+
+
+    <h1>Part six: Form Selections</h1>
+
+    <h2>Radio buttons:</h2>
+    <form method="get">
+      <p>Are you from inside or outside the US?</p>
+      <label for="inusa">Inside:</label>
+      <input type="radio" id="inusa" name="loc" value="inside">
+      <label for="outusa">Outside:</label>
+      <input type="radio" id="outusa" name="loc" value="outside">
+
+    <h2>Drop Downs</h2>
+
+      <p>How was your service?</p>
+      <select class="" name="stayWas">
+        <option value="Great">3</option>
+        <option value="Ok">2</option>
+        <option value="Bad">1</option>
+      </select>
+      <p>Any other feedback:</p>
+      <textarea name="feedback" rows="8" cols="80"></textarea>
+      <input type="submit" name="" value="Submit">
+
+    </form>
+  </body>
+</html>

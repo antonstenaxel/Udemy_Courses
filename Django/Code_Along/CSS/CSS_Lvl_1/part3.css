@@ -1,0 +1,36 @@
+body{
+
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+div{
+color: rgb(51,51,51);
+}
+
+.firstDiv{
+background-color: rgba(51,51,51,0.1);
+}
+
+.secondDiv{
+  color: gray;
+}
+
+#singledout{
+  color: rgb(255,200,150);
+  text-decoration: underline;
+}
+
+h3 + ul{
+border: 1px solid black;
+
+}
+
+li a{
+  color: red;
+}
+
+li a[href="www.google.se"]{
+  color: purple;
+  border: 2px dotted orange;
+}
